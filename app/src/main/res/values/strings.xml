@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GorjetaApp</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="tip_amont">Tip Amont</string>
+    <string name="calculate">Calculate</string>
+    <string name="rouad_up_tip">Rouad up tip?</string>
+    <string name="ok_15">Ok(15%)</string>
+    <string name="good_18">Good(18%)</string>
+    <string name="armazing_20">Armazing (20%)</string>
+    <string name="tip_amount">Tip Amount: %s</string>
 </resources>
