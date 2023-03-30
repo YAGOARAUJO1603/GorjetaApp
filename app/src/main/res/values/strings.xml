@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GorjetaApp</string>
+    <string name="tip_amount">Tip Amount: %s</string>
 </resources>

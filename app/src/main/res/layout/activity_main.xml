@@ -13,8 +13,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Cost of Service"
+        android:hint="Cost of Service"
+        android:inputType="numberDecimal"
         android:textColor="#808080"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -80,7 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/opcoes" />
 
     <Button
-        android:id="@+id/calculate"
+        android:id="@+id/calculateButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -97,8 +97,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Tip Amount"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculate" />
+        app:layout_constraintTop_toBottomOf="@+id/calculateButton" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
