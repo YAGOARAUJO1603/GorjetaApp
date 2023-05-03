@@ -15,7 +15,7 @@
         android:ems="10"
         android:hint="Cost of Service"
         android:inputType="numberDecimal"
-        android:textColor="#808080"
+        android:textColor="@color/material_dynamic_neutral_variant50"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,7 +65,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Round up tip?"
-        android:textColor="#0E0E0E"
+        android:textColor="@color/material_dynamic_neutral_variant50"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/opcoes" />
